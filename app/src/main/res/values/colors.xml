@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="board_bg">#EBC38D</color>
+    <color name="red_piece">#FF0000</color>
+    <color name="black_piece">#000000</color>
+    <color name="selected_color">#8000FF00</color>
+    <color name="last_move_color">#800000FF</color>
+</resources>
