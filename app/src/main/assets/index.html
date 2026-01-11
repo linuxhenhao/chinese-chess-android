@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>中国象棋 - Premium Edition</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="game-container">
+        <header>
+            <h1>中国象棋</h1>
+            <div id="status">红方走子</div>
+        </header>
+
+        <div id="mode-selector">
+            <button id="pvp-mode" class="mode-btn active">人人大战</button>
+            <button id="ai-mode" class="mode-btn">人机对战</button>
+        </div>
+
+        <div id="board-wrapper">
+            <!-- ... board content ... -->
+            <div id="board">
+                <div id="grid-container" class="grid-overlay"></div>
+                <div class="river-text">
+                    <span>楚 河</span>
+                    <span>漢 界</span>
+                </div>
+                <div id="pieces-layer"></div>
+                <div id="interaction-layer"></div>
+            </div>
+        </div>
+
+        <div id="replay-controls">
+            <button id="first-move" class="ctrl-btn" title="第一步">«</button>
+            <button id="prev-move" class="ctrl-btn" title="上一步">‹</button>
+            <span id="move-count">0 / 0</span>
+            <button id="next-move" class="ctrl-btn" title="下一步">›</button>
+            <button id="last-move" class="ctrl-btn" title="最后一步">»</button>
+        </div>
+
+        <div id="controls">
+            <button id="undo-btn" disabled>悔棋</button>
+            <button id="reset-btn">重新开始</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
